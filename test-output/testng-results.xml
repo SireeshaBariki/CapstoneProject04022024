@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-03T12:45:46 IST" name="Default suite" finished-at="2024-02-03T12:46:33 IST" duration-ms="47908">
+    <groups>
+    </groups>
+    <test started-at="2024-02-03T12:45:46 IST" name="Default test" finished-at="2024-02-03T12:46:33 IST" duration-ms="47908">
+      <class name="testCases.TestScript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestScript@54bff557]" started-at="2024-02-03T12:45:46 IST" name="setUp" finished-at="2024-02-03T12:46:07 IST" duration-ms="21378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TestScript@54bff557]" started-at="2024-02-03T12:46:07 IST" name="loginTest" finished-at="2024-02-03T12:46:14 IST" duration-ms="6554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchusers()[pri:0, instance:testCases.TestScript@54bff557]" started-at="2024-02-03T12:46:14 IST" name="searchusers" finished-at="2024-02-03T12:46:33 IST" depends-on-methods="testCases.TestScript.loginTest" duration-ms="19866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchusers -->
+      </class> <!-- testCases.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
